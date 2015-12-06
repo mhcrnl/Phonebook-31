@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1419433245 source:c:\users\nader\desktop\project-two\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+
