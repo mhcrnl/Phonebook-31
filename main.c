@@ -52,10 +52,10 @@ void logo(){
     if(entry>0){
     printf("\t    %d contact(s) loaded",entry);
     }
-    if(strcmpi(input,"No file")!=0 && saved==0){
+    if(strcmp(input,"No file")!=0 && saved==0){
         printf(" - UNSAVED");
     }
-    else if (strcmpi(input,"No file")!=0 && saved==1){
+    else if (strcmp(input,"No file")!=0 && saved==1){
         printf("\n\t    Last saved: %s",asctime (timeinfo));
     }
     printf("\n\n\n\n");
